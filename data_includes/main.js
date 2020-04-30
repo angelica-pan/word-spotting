@@ -149,9 +149,9 @@ PennController.Template("test_items",
             .center()
         ,
         newCanvas(600, 300)
-            .add(0, 100, getText("question"))
-            .add(0, 150, getText("answer_1"))
-            .add(300, 150, getText("answer_2"))
+            .add(0, 150, getText("question"))
+            .add(0, 200, getText("answer_1"))
+            .add(300, 200, getText("answer_2"))
             .print()
         ,
         newKey("FJ")
