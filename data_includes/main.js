@@ -1,7 +1,7 @@
 PennController.ResetPrefix(null);                       // Initiates PennController
 var showProgressBar = false;                            // Don't show progress bar
 
-Sequence("items", "fillers")
+Sequence(shuffle(randomize("items"), randomize("fillers")))
 
 // Instructions 
 newTrial("instructions",
