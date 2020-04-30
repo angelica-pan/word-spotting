@@ -77,7 +77,7 @@ AddTable( "test_fillers" ,
 );
 
 // Experimental item trial 
-PennController.Template("test_items",
+PennController.Template("items.csv",	// use "test_items" to test
     variable => PennController("items",
         defaultText
             .center()
@@ -167,7 +167,7 @@ PennController.Template("test_items",
 );
 
 // Filler item trial 
-PennController.Template("test_fillers",
+PennController.Template("fillers.csv", // use "test_fillers" to test
     variable => PennController("fillers",
         defaultText
             .center()
@@ -239,9 +239,9 @@ PennController.Template("test_fillers",
             .center()
         ,
         newCanvas(600, 300)
-            .add(0, 100, getText("question"))
-            .add(0, 150, getText("answer_1"))
-            .add(300, 150, getText("answer_2"))
+            .add(0, 150, getText("question"))
+            .add(0, 200, getText("answer_1"))
+            .add(300, 200, getText("answer_2"))
             .print()
         ,
         newKey("FJ")
