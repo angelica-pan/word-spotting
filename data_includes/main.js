@@ -32,10 +32,10 @@ AddTable( "test_items" ,
 	"B,1,Clash.Shift,SC_Clash_Shift_1.wav,target_1_B,question_1_B,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
 	"C,1,NoClash.NoShift,SC_NoClash_NoShift_1.wav,target_1_C,question_1_C,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
 	"D,1,NoClash.Shift,SC_NoClash_Shift_1.wav,target_1_D,question_1_D,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
-	"B,2,Clash.NoShift,SC_Clash_NoShift_2.wav,target_2_B,question_2_B,,,,\n"+
-	"C,2,Clash.Shift,SC_Clash_Shift_2.wav,target_2_C,question_2_C,,,,\n"+
-	"A,2,NoClash.NoShift,SC_NoClash_NoShift_2.wav,target_2_A,question_2_A,,,,\n"+
-	"D,2,NoClash.Shift,SC_NoClash_Shift_2.wav,target_2_D,question_2_D,,,,\n"+
+	"B,2,Clash.NoShift,SC_Clash_NoShift_2.wav,target_2_B,question_2_B,Press the F or J key to continue.,,,\n"+
+	"C,2,Clash.Shift,SC_Clash_Shift_2.wav,target_2_C,question_2_C,Press the F or J key to continue.,,,\n"+
+	"A,2,NoClash.NoShift,SC_NoClash_NoShift_2.wav,target_2_A,question_2_A,Press the F or J key to continue.,,,\n"+
+	"D,2,NoClash.Shift,SC_NoClash_Shift_2.wav,target_2_D,question_2_D,Press the F or J key to continue.,,,\n"+
 	"C,3,Clash.NoShift,SC_Clash_NoShift_3.wav,target_3_C,question_3_C,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
 	"D,3,Clash.Shift,SC_Clash_Shift_3.wav,target_3_D,question_3_D,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
 	"B,3,NoClash.NoShift,SC_NoClash_NoShift_3.wav,target_3_B,question_3_B,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
@@ -51,8 +51,8 @@ AddTable( "test_fillers" ,
 	"item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n+"+
 	"1,filler,filler.wav,filler_1,,QUESTION?,YES,NO,answer_1\n+"+
 	"2,filler,filler.wav,filler_2,,QUESTION?,YES,NO,answer_1\n+"+
-	"3,filler,filler.wav,filler_3,,,,,\n+"+
-	"4,filler,filler.wav,filler_4,,,,,"
+	"3,filler,filler.wav,filler_3,,Press the F or J key to continue.,,,\n+"+
+	"4,filler,filler.wav,filler_4,,Press the F or J key to continue.,,,"
 );
 
 // Experimental item trial 
