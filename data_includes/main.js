@@ -185,18 +185,18 @@ PennController.Template("test_fillers",
             .settings.cssContainer({border: "solid 1px purple", "width": "600px", "font-size": "150%", "height": "50px"})
             .center()
         ,
-        newText("left", variable.left)
+        newText("answer_1", variable.answer_1)
             .settings.cssContainer({border: "solid 1px black", "width": "300px"})
             .center()
         ,
-        newText("right", variable.right)
+        newText("answer_2", variable.answer_2)
             .settings.cssContainer({border: "solid 1px red", "width": "300px"})
             .center()
         ,
         newCanvas(600, 300)
             .add(0, 100, getText("question"))
-            .add(0, 150, getText("left"))
-            .add(300, 150, getText("right"))
+            .add(0, 150, getText("answer_1"))
+            .add(300, 150, getText("answer_2"))
             .print()
         ,
         newKey("FJ")
@@ -219,18 +219,18 @@ newTrial(
             .settings.cssContainer({border: "solid 1px purple", "width": "600px", "font-size": "150%", "height": "50px"})
             .center()
         ,
-        newText("left", variable.left)
+        newText("answer_1", variable.answer_1)
             .settings.cssContainer({border: "solid 1px black", "width": "300px"})
             .center()
         ,
-        newText("right", variable.right)
+        newText("answer_2", variable.answer_2)
             .settings.cssContainer({border: "solid 1px red", "width": "300px"})
             .center()
         ,
         newCanvas(600, 300)
             .add(0, 100, getText("question"))
-            .add(0, 150, getText("left"))
-            .add(300, 150, getText("right"))
+            .add(0, 150, getText("answer_1"))
+            .add(300, 150, getText("answer_2"))
             .print()
         ,
         newKey("FJ")
