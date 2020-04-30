@@ -25,13 +25,13 @@ newTrial("instructions",
 )
 
 AddTable( "mytable" ,
-    "group,target,stimulus,question,left,right\n"+
-    "A,1,SC_Clash_NoShift_1.wav,question_1,the dollar store,the construction store\n"+
-    "A,2,SC_Clash_NoShift_1.wav,question_2,answer_3,answer_4"
+    "group,target,stimulus,question,answer_1,answer_2,correct\n"+
+    "A,1,SC_Clash_NoShift_1.wav,question_1,the dollar store,the construction store,answer_1\n"+
+    "A,2,SC_Clash_NoShift_1.wav,question_2,some answer,some other answer,answer_2"
 );
 
 // Trial 
-PennController.Template("input.csv",
+PennController.Template("mytable",
     variable => PennController("experiment",
         defaultText
             .center()
@@ -92,7 +92,7 @@ PennController.Template("input.csv",
     .log("item",        variable.item)
     .log("condition",   variable.cond2)
     .log("target",      variable.target)
-    .log("stimulus",    variable.stimulus)
+    .log("correct",    	variable.correct)
 
 );
 
