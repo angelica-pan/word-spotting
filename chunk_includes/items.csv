@@ -1,12 +1,12 @@
-﻿group,item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct
+group,item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct
 A,1,Clash.NoShift,SC_Clash_NoShift_1.wav,target_1_A,"On the way home, the thirteen men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1
 B,1,Clash.Shift,SC_Clash_Shift_1.wav,target_1_B,"On the way home, the thirteen men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1
 C,1,NoClash.NoShift,SC_NoClash_NoShift_1.wav,target_1_C,"On the way home, the thrifty men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1
 D,1,NoClash.Shift,SC_NoClash_Shift_1.wav,target_1_D,"On the way home, the thrifty men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1
-B,2,Clash.NoShift,SC_Clash_NoShift_2.wav,target_2_B,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",,,,
-C,2,Clash.Shift,SC_Clash_Shift_2.wav,target_2_C,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",,,,
-A,2,NoClash.NoShift,SC_NoClash_NoShift_2.wav,target_2_A,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,
-D,2,NoClash.Shift,SC_NoClash_Shift_2.wav,target_2_D,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,
+B,2,Clash.NoShift,SC_Clash_NoShift_2.wav,target_2_B,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",Press the F or J key to continue.,,,
+C,2,Clash.Shift,SC_Clash_Shift_2.wav,target_2_C,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",Press the F or J key to continue.,,,
+A,2,NoClash.NoShift,SC_NoClash_NoShift_2.wav,target_2_A,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",Press the F or J key to continue.,,,
+D,2,NoClash.Shift,SC_NoClash_Shift_2.wav,target_2_D,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",Press the F or J key to continue.,,,
 C,3,Clash.NoShift,SC_Clash_NoShift_3.wav,target_3_C,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1
 D,3,Clash.Shift,SC_Clash_Shift_3.wav,target_3_D,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1
 B,3,NoClash.NoShift,SC_NoClash_NoShift_3.wav,target_3_B,"Despite the high cost, the stingy boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1
@@ -19,18 +19,18 @@ A,5,Clash.NoShift,SC_Clash_NoShift_5.wav,target_5_A,"Despite investors' worries,
 B,5,Clash.Shift,SC_Clash_Shift_5.wav,target_5_B,"Despite investors' worries, robust growth from the economy kept recession at bay.",WHO WERE WORRIED?,POLITICIANS,INVESTORS,answer_2
 C,5,NoClash.NoShift,SC_NoClash_NoShift_5.wav,target_5_C,"Despite investors' worries, sturdy growth from the economy kept recession at bay.",WHO WERE WORRIED?,POLITICIANS,INVESTORS,answer_2
 D,5,NoClash.Shift,SC_NoClash_Shift_5.wav,target_5_D,"Despite investors' worries, sturdy growth from the economy kept recession at bay.",WHO WERE WORRIED?,POLITICIANS,INVESTORS,answer_2
-B,6,Clash.NoShift,SC_Clash_NoShift_6.wav,target_6_B,"Three years after the disaster, the intact house below the old dam site finally went on sale.",,,,
-C,6,Clash.Shift,SC_Clash_Shift_6.wav,target_6_C,"Three years after the disaster, the intact house below the old dam site finally went on sale.",,,,
-A,6,NoClash.NoShift,SC_NoClash_NoShift_6.wav,target_6_A,"Three years after the disaster, the stable house below the old dam site finally went on sale.",,,,
-D,6,NoClash.Shift,SC_NoClash_Shift_6.wav,target_6_D,"Three years after the disaster, the stable house below the old dam site finally went on sale.",,,,
+B,6,Clash.NoShift,SC_Clash_NoShift_6.wav,target_6_B,"Three years after the disaster, the intact house below the old dam site finally went on sale.",Press the F or J key to continue.,,,
+C,6,Clash.Shift,SC_Clash_Shift_6.wav,target_6_C,"Three years after the disaster, the intact house below the old dam site finally went on sale.",Press the F or J key to continue.,,,
+A,6,NoClash.NoShift,SC_NoClash_NoShift_6.wav,target_6_A,"Three years after the disaster, the stable house below the old dam site finally went on sale.",Press the F or J key to continue.,,,
+D,6,NoClash.Shift,SC_NoClash_Shift_6.wav,target_6_D,"Three years after the disaster, the stable house below the old dam site finally went on sale.",Press the F or J key to continue.,,,
 C,7,Clash.NoShift,SC_Clash_NoShift_7.wav,target_7_C,"As the crowd cheered, the chinese ship from across the ocean pulled into the harbor.",WAS THERE A CROWD WATCHING?,YES,NO,answer_1
 D,7,Clash.Shift,SC_Clash_Shift_7.wav,target_7_D,"As the crowd cheered, the chinese ship from across the ocean pulled into the harbor.",WAS THERE A CROWD WATCHING?,YES,NO,answer_1
 B,7,NoClash.NoShift,SC_NoClash_NoShift_7.wav,target_7_B,"As the crowd cheered, the spanish ship from across the ocean pulled into the harbor.",WAS THERE A CROWD WATCHING?,YES,NO,answer_1
 A,7,NoClash.Shift,SC_NoClash_Shift_7.wav,target_7_A,"As the crowd cheered, the spanish ship from across the ocean pulled into the harbor.",WAS THERE A CROWD WATCHING?,YES,NO,answer_1
-D,8,Clash.NoShift,SC_Clash_NoShift_8.wav,target_8_D,"As the dorm door opened, the unclean smell from the old pizza box met the janitor's nose.",,,,
-A,8,Clash.Shift,SC_Clash_Shift_8.wav,target_8_A,"As the dorm door opened, the unclean smell from the old pizza box met the janitor's nose.",,,,
-C,8,NoClash.NoShift,SC_NoClash_NoShift_8.wav,target_8_C,"As the dorm door opened, the pungent smell from the old pizza box met the janitor's nose.",,,,
-B,8,NoClash.Shift,SC_NoClash_Shift_8.wav,target_8_B,"As the dorm door opened, the pungent smell from the old pizza box met the janitor's nose.",,,,
+D,8,Clash.NoShift,SC_Clash_NoShift_8.wav,target_8_D,"As the dorm door opened, the unclean smell from the old pizza box met the janitor's nose.",Press the F or J key to continue.,,,
+A,8,Clash.Shift,SC_Clash_Shift_8.wav,target_8_A,"As the dorm door opened, the unclean smell from the old pizza box met the janitor's nose.",Press the F or J key to continue.,,,
+C,8,NoClash.NoShift,SC_NoClash_NoShift_8.wav,target_8_C,"As the dorm door opened, the pungent smell from the old pizza box met the janitor's nose.",Press the F or J key to continue.,,,
+B,8,NoClash.Shift,SC_NoClash_Shift_8.wav,target_8_B,"As the dorm door opened, the pungent smell from the old pizza box met the janitor's nose.",Press the F or J key to continue.,,,
 A,9,Clash.NoShift,SC_Clash_NoShift_9.wav,target_9_A,"On a bright spring day, the uncouth lad from the small country town arrived in the city.",WAS IT A RAINY DAY?,YES,NO,answer_2
 B,9,Clash.Shift,SC_Clash_Shift_9.wav,target_9_B,"On a bright spring day, the uncouth lad from the small country town arrived in the city.",WAS IT A RAINY DAY?,YES,NO,answer_2
 C,9,NoClash.NoShift,SC_NoClash_NoShift_9.wav,target_9_C,"On a bright spring day, the rustic lad from the small country town arrived in the city.",WAS IT A RAINY DAY?,YES,NO,answer_2
@@ -47,26 +47,26 @@ D,12,Clash.NoShift,SC_Clash_NoShift_12.wav,target_12_D,"Hearing the barking dog,
 A,12,Clash.Shift,SC_Clash_Shift_12.wav,target_12_A,"Hearing the barking dog, the innate sense for protection in heights drove squirrels up the tree.",WHAT FRIGHTENED THE SQUIRRELS?,A BIRD,A DOG,answer_2
 C,12,NoClash.NoShift,SC_NoClash_NoShift_12.wav,target_12_C,"Hearing the barking dog, the native sense for protection in heights drove squirrels up the tree.",WHAT FRIGHTENED THE SQUIRRELS?,A BIRD,A DOG,answer_2
 B,12,NoClash.Shift,SC_NoClash_Shift_12.wav,target_12_B,"Hearing the barking dog, the native sense for protection in heights drove squirrels up the tree.",WHAT FRIGHTENED THE SQUIRRELS?,A BIRD,A DOG,answer_2
-A,13,Clash.NoShift,SC_Clash_NoShift_13.wav,target_13_A,"As the salespeople left the room, the compact notes from the boring meeting were thrown in the trash can.",,,,
-B,13,Clash.Shift,SC_Clash_Shift_13.wav,target_13_B,"As the salespeople left the room, the compact notes from the boring meeting were thrown in the trash can.",,,,
-C,13,NoClash.NoShift,SC_NoClash_NoShift_13.wav,target_13_C,"As the salespeople left the room, the bundled notes from the boring meeting were thrown in the trash can.",,,,
-D,13,NoClash.Shift,SC_NoClash_Shift_13.wav,target_13_D,"As the salespeople left the room, the bundled notes from the boring meeting were thrown in the trash can.",,,,
-B,14,Clash.NoShift,SC_Clash_NoShift_14.wav,target_14_B,"Although much money was paid, the unreal dream to run a dog-daycare was never realized.",,,,
-C,14,Clash.Shift,SC_Clash_Shift_14.wav,target_14_C,"Although much money was paid, the unreal dream to run a dog-daycare was never realized.",,,,
-A,14,NoClash.NoShift,SC_NoClash_NoShift_14.wav,target_14_A,"Although much money was paid, the foolish dream to run a dog-daycare was never realized.",,,,
-D,14,NoClash.Shift,SC_NoClash_Shift_14.wav,target_14_D,"Although much money was paid, the foolish dream to run a dog-daycare was never realized.",,,,
-C,15,Clash.NoShift,SC_Clash_NoShift_15.wav,target_15_C,"As the thief left the crime scene,  the covert glance behind him up the road assured him he was safe.",,,,
-D,15,Clash.Shift,SC_Clash_Shift_15.wav,target_15_D,"As the thief left the crime scene,  the covert glance behind him up the road assured him he was safe.",,,,
-B,15,NoClash.NoShift,SC_NoClash_NoShift_15.wav,target_15_B,"As the thief left the crime scene,  the furtive glance behind him up the road assured him he was safe.",,,,
-A,15,NoClash.Shift,SC_NoClash_Shift_15.wav,target_15_A,"As the thief left the crime scene,  the furtive glance behind him up the road assured him he was safe.",,,,
+A,13,Clash.NoShift,SC_Clash_NoShift_13.wav,target_13_A,"As the salespeople left the room, the compact notes from the boring meeting were thrown in the trash can.",Press the F or J key to continue.,,,
+B,13,Clash.Shift,SC_Clash_Shift_13.wav,target_13_B,"As the salespeople left the room, the compact notes from the boring meeting were thrown in the trash can.",Press the F or J key to continue.,,,
+C,13,NoClash.NoShift,SC_NoClash_NoShift_13.wav,target_13_C,"As the salespeople left the room, the bundled notes from the boring meeting were thrown in the trash can.",Press the F or J key to continue.,,,
+D,13,NoClash.Shift,SC_NoClash_Shift_13.wav,target_13_D,"As the salespeople left the room, the bundled notes from the boring meeting were thrown in the trash can.",Press the F or J key to continue.,,,
+B,14,Clash.NoShift,SC_Clash_NoShift_14.wav,target_14_B,"Although much money was paid, the unreal dream to run a dog-daycare was never realized.",Press the F or J key to continue.,,,
+C,14,Clash.Shift,SC_Clash_Shift_14.wav,target_14_C,"Although much money was paid, the unreal dream to run a dog-daycare was never realized.",Press the F or J key to continue.,,,
+A,14,NoClash.NoShift,SC_NoClash_NoShift_14.wav,target_14_A,"Although much money was paid, the foolish dream to run a dog-daycare was never realized.",Press the F or J key to continue.,,,
+D,14,NoClash.Shift,SC_NoClash_Shift_14.wav,target_14_D,"Although much money was paid, the foolish dream to run a dog-daycare was never realized.",Press the F or J key to continue.,,,
+C,15,Clash.NoShift,SC_Clash_NoShift_15.wav,target_15_C,"As the thief left the crime scene,  the covert glance behind him up the road assured him he was safe.",Press the F or J key to continue.,,,
+D,15,Clash.Shift,SC_Clash_Shift_15.wav,target_15_D,"As the thief left the crime scene,  the covert glance behind him up the road assured him he was safe.",Press the F or J key to continue.,,,
+B,15,NoClash.NoShift,SC_NoClash_NoShift_15.wav,target_15_B,"As the thief left the crime scene,  the furtive glance behind him up the road assured him he was safe.",Press the F or J key to continue.,,,
+A,15,NoClash.Shift,SC_NoClash_Shift_15.wav,target_15_A,"As the thief left the crime scene,  the furtive glance behind him up the road assured him he was safe.",Press the F or J key to continue.,,,
 D,16,Clash.NoShift,SC_Clash_NoShift_16.wav,target_16_D,Hikers need to pay attention; an unsure step through such dense underbrush could send you tumbling down.,WHO NEEDS TO PAY ATTENTION?,HIKERS,JOGGERS,answer_1
 A,16,Clash.Shift,SC_Clash_Shift_16.wav,target_16_A,Hikers need to pay attention; an unsure step through such dense underbrush could send you tumbling down.,WHO NEEDS TO PAY ATTENTION?,HIKERS,JOGGERS,answer_1
 C,16,NoClash.NoShift,SC_NoClash_NoShift_16.wav,target_16_C,Hikers need to pay attention; a hasty step through such dense underbrush could send you tumbling down.,WHO NEEDS TO PAY ATTENTION?,HIKERS,JOGGERS,answer_1
 B,16,NoClash.Shift,SC_NoClash_Shift_16.wav,target_16_B,Hikers need to pay attention; a hasty step through such dense underbrush could send you tumbling down.,WHO NEEDS TO PAY ATTENTION?,HIKERS,JOGGERS,answer_1
-A,17,Clash.NoShift,SC_Clash_NoShift_17.wav,target_17_A,"Across the decades, the convex roof to the old cathedral has been weathered by rain.",,,,
-B,17,Clash.Shift,SC_Clash_Shift_17.wav,target_17_B,"Across the decades, the convex roof to the old cathedral has been weathered by rain.",,,,
-C,17,NoClash.NoShift,SC_NoClash_NoShift_17.wav,target_17_C,"Across the decades, the arching roof to the old cathedral has been weathered by rain.",,,,
-D,17,NoClash.Shift,SC_NoClash_Shift_17.wav,target_17_D,"Across the decades, the arching roof to the old cathedral has been weathered by rain.",,,,
+A,17,Clash.NoShift,SC_Clash_NoShift_17.wav,target_17_A,"Across the decades, the convex roof to the old cathedral has been weathered by rain.",Press the F or J key to continue.,,,
+B,17,Clash.Shift,SC_Clash_Shift_17.wav,target_17_B,"Across the decades, the convex roof to the old cathedral has been weathered by rain.",Press the F or J key to continue.,,,
+C,17,NoClash.NoShift,SC_NoClash_NoShift_17.wav,target_17_C,"Across the decades, the arching roof to the old cathedral has been weathered by rain.",Press the F or J key to continue.,,,
+D,17,NoClash.Shift,SC_NoClash_Shift_17.wav,target_17_D,"Across the decades, the arching roof to the old cathedral has been weathered by rain.",Press the F or J key to continue.,,,
 B,18,Clash.NoShift,SC_Clash_NoShift_18.wav,target_18_B,"At the end-of-year dance, the sixteen girls by the water cooler discussed their summer plans.",WHAT WERE THEY TALKING ABOUT?,THE DANCE,SUMMER PLANS,answer_2
 C,18,Clash.Shift,SC_Clash_Shift_18.wav,target_18_C,"At the end-of-year dance, the sixteen girls by the water cooler discussed their summer plans.",WHAT WERE THEY TALKING ABOUT?,THE DANCE,SUMMER PLANS,answer_2
 A,18,NoClash.NoShift,SC_NoClash_NoShift_18.wav,target_18_A,"At the end-of-year dance, the sixty girls by the water cooler discussed their summer plans.",WHAT WERE THEY TALKING ABOUT?,THE DANCE,SUMMER PLANS,answer_2
@@ -75,7 +75,7 @@ C,19,Clash.NoShift,SC_Clash_NoShift_19.wav,target_19_C,"At the end of the week, 
 D,19,Clash.Shift,SC_Clash_Shift_19.wav,target_19_D,"At the end of the week,  eighteen shirts from the town's spare-clothes-drive were given to the poor.",WHAT ITEMS WERE DONATED?,SHIRTS,SHOES,answer_1
 B,19,NoClash.NoShift,SC_NoClash_NoShift_19.wav,target_19_B,"At the end of the week,  extra shirts from the town's spare-clothes-drive were given to the poor.",WHAT ITEMS WERE DONATED?,SHIRTS,SHOES,answer_1
 A,19,NoClash.Shift,SC_NoClash_Shift_19.wav,target_19_A,"At the end of the week,  extra shirts from the town's spare-clothes-drive were given to the poor.",WHAT ITEMS WERE DONATED?,SHIRTS,SHOES,answer_1
-D,20,Clash.NoShift,SC_Clash_NoShift_20.wav,target_20_D,"Every morning after the cows are milked, the fifteen cats by the dairy farm drink the left-over milk.",,,,
-A,20,Clash.Shift,SC_Clash_Shift_20.wav,target_20_A,"Every morning after the cows are milked, the fifteen cats by the dairy farm drink the left-over milk.",,,,
-C,20,NoClash.NoShift,SC_NoClash_NoShift_20.wav,target_20_C,"Every morning after the cows are milked, the fifty cats by the dairy farm drink the left-over milk.",,,,
-B,20,NoClash.Shift,SC_NoClash_Shift_20.wav,target_20_B,"Every morning after the cows are milked, the fifty cats by the dairy farm drink the left-over milk.",,,,
+D,20,Clash.NoShift,SC_Clash_NoShift_20.wav,target_20_D,"Every morning after the cows are milked, the fifteen cats by the dairy farm drink the left-over milk.",Press the F or J key to continue.,,,
+A,20,Clash.Shift,SC_Clash_Shift_20.wav,target_20_A,"Every morning after the cows are milked, the fifteen cats by the dairy farm drink the left-over milk.",Press the F or J key to continue.,,,
+C,20,NoClash.NoShift,SC_NoClash_NoShift_20.wav,target_20_C,"Every morning after the cows are milked, the fifty cats by the dairy farm drink the left-over milk.",Press the F or J key to continue.,,,
+B,20,NoClash.Shift,SC_NoClash_Shift_20.wav,target_20_B,"Every morning after the cows are milked, the fifty cats by the dairy farm drink the left-over milk.",Press the F or J key to continue.,,,
