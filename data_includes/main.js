@@ -51,8 +51,8 @@ AddTable( "test_fillers" ,
 	"item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n+"+
 	"1,filler,filler.wav,filler_1,,QUESTION?,YES,NO,answer_1\n+"+
 	"2,filler,filler.wav,filler_2,,QUESTION?,YES,NO,answer_1\n+"+
-	"3,filler,filler.wav,filler_3,,QUESTION?,YES,NO,answer_1\n+"+
-	"4,filler,filler.wav,filler_4,,QUESTION?,YES,NO,answer_1"
+	"3,filler,filler.wav,filler_3,,,,,\n+"+
+	"4,filler,filler.wav,filler_4,,,,,"
 );
 
 // Experimental item trial 
@@ -112,6 +112,30 @@ PennController.Template("test_items",
         newAudio("stimulus", variable.stimulus)
             .play()
             .wait() 
+        ,
+    	clear()
+        ,
+        newText("question", variable.question)
+            .settings.cssContainer({border: "solid 1px purple", "width": "600px", "font-size": "150%", "height": "50px"})
+            .center()
+        ,
+        newText("answer_1", variable.answer_1)
+            .settings.cssContainer({border: "solid 1px black", "width": "300px"})
+            .center()
+        ,
+        newText("answer_2", variable.answer_2)
+            .settings.cssContainer({border: "solid 1px red", "width": "300px"})
+            .center()
+        ,
+        newCanvas(600, 300)
+            .add(0, 100, getText("question"))
+            .add(0, 150, getText("answer_1"))
+            .add(300, 150, getText("answer_2"))
+            .print()
+        ,
+        newKey("FJ")
+            .wait()
+            .log()
     )
     .log("group",       variable.group)
     .log("item",        variable.item)
