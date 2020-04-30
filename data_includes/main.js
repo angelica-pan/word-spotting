@@ -2,25 +2,50 @@ PennController.ResetPrefix(null);                       // Initiates PennControl
 var showProgressBar = false;                            // Don't show progress bar
 
 // experimental and filler items have to be separated so that experimental items are displayed by counterbalancing group, but all filler items are displayed
-Sequence(shuffle(randomize("items"), randomize("fillers")))
+Sequence("instructions", shuffle(randomize("items"), randomize("fillers")))
 
 // Instructions 
 newTrial("instructions",
     defaultText
-        .center()
         .print()
     ,
-    newText("<p>Welcome!</p>")
+	newText("<p> Welcome to the experiment! </p>")
+		.center()
     ,
-    newText("<p>Some instructions here.</p>")
+    newText("<p> You will be listening to sentences while looking at a cross (+) at the center of the screen. Please listen to each sentence carefully so that you understand it fully. </p>")
+    	.center()
+	,
+    newText("<p> Before each sentence, you will be given a word to monitor for. While listening to the sentence, press the SPACEBAR as soon as you hear the word. The given word might not actually be in the sentence, so listen carefully! </p>")
+    	.center()  
+    ,
+    newText("<p> Some of the sentences will be followed by comprehension questions. Press the F or J key to select the answer on the left or the answer on the right, respectively. </p>")
+      	.center()  
+    ,
+    newText("<p> Press the spacebar to continue. </p>")
+        .center()
         .italic()
     ,
-    newText("<p>More instructions here</p>")
-        .italic()
+    newKey(" ")
+        .wait()
     ,
-    newText("<p>Press the START button to continue. </p>")
+    clear()
+    ,
+    newText("<p> Each trial will proceed as follows: </p>")
+    ,
+    newText("<p> <b> 1. Smiley face </b>: Rest as needed. Press the spacebar when you are ready to continue. </p>")
+    ,
+    newText("<p> <b> 2. Target word </b>: You will see a word to listen for. Press the spacebar when you are ready to continue. </p>")
+    ,
+    newText("<p> <b> 3. Cross (+) </b>: The sentence is playing -- listen carefully, and push the SPACEBAR if you hear the target word. </p>")
+    ,
+    newText("<p> <b> 4. Comprehension question </b>: Some of the sentences will be followed by a comprehension question. Respond by pressing the F or J key. </p>")
+    ,
+    newText("<p> Press the START button to continue. </p>")
+    	.center()
+    	.italic()
     ,
     newButton("START")
+    	.center()
         .print()
         .wait()
 )
@@ -88,7 +113,7 @@ PennController.Template("test_items",
             .add("center at 50%", "center at 50%", getText("target_word"))
             .print()
         ,
-        newText("continue", "<p> Press the spacebar to continue. </p>")
+        newText("<p> Press the spacebar to continue. </p>")
             .italic()
             .print()
         ,
