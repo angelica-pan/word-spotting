@@ -116,15 +116,15 @@ PennController.Template("test_items",
     	clear()
         ,
         newText("question", variable.question)
-            .settings.cssContainer({border: "solid 1px purple", "width": "600px", "font-size": "150%", "height": "50px"})
+            .settings.cssContainer({"width": "600px", "font-size": "150%", "height": "50px"})
             .center()
         ,
         newText("answer_1", variable.answer_1)
-            .settings.cssContainer({border: "solid 1px black", "width": "300px"})
+            .settings.cssContainer({"width": "300px"})
             .center()
         ,
         newText("answer_2", variable.answer_2)
-            .settings.cssContainer({border: "solid 1px red", "width": "300px"})
+            .settings.cssContainer({"width": "300px"})
             .center()
         ,
         newCanvas(600, 300)
@@ -206,15 +206,15 @@ PennController.Template("test_fillers",
     	clear()
         ,
         newText("question", variable.question)
-            .settings.cssContainer({border: "solid 1px purple", "width": "600px", "font-size": "150%", "height": "50px"})
+            .settings.cssContainer({"width": "600px", "font-size": "150%", "height": "50px"})
             .center()
         ,
         newText("answer_1", variable.answer_1)
-            .settings.cssContainer({border: "solid 1px black", "width": "300px"})
+            .settings.cssContainer({"width": "300px"})
             .center()
         ,
         newText("answer_2", variable.answer_2)
-            .settings.cssContainer({border: "solid 1px red", "width": "300px"})
+            .settings.cssContainer({"width": "300px"})
             .center()
         ,
         newCanvas(600, 300)
@@ -235,7 +235,7 @@ PennController.Template("test_fillers",
 
 );
 
-// code for comprehension questions (to be added in)
+// Comprehension question code (saved as a backup)
 newTrial(
         clear()
         ,
