@@ -7,7 +7,7 @@ Sequence("instructions", shuffle(randomize("items"), randomize("fillers")))
 // Instructions 
 newTrial("instructions",
     defaultText
-	.settings.cssContainer({"width": "800px"})
+	.settings.cssContainer({"width": "600px"})
         .print()
     ,
 	newText("<p> Welcome to the experiment! </p>")
