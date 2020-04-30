@@ -7,23 +7,19 @@ Sequence("instructions", shuffle(randomize("items"), randomize("fillers")))
 // Instructions 
 newTrial("instructions",
     defaultText
-	.settings.cssContainer({"width": "600px"})
+        .settings.cssContainer({"width": "600px"})
+        .center()
         .print()
     ,
 	newText("<p> Welcome to the experiment! </p>")
-		.center()
     ,
     newText("<p> You will be listening to sentences while looking at a cross (+) at the center of the screen. Please listen to each sentence carefully so that you understand it fully. </p>")
-    	.center()
 	,
     newText("<p> Before each sentence, you will be given a word to monitor for. While listening to the sentence, press the SPACEBAR as soon as you hear the word. The given word might not actually be in the sentence, so listen carefully! </p>")
-    	.center()  
     ,
     newText("<p> Some of the sentences will be followed by comprehension questions. Press the F or J key to select the answer on the left or the answer on the right, respectively. </p>")
-      	.center()  
     ,
     newText("<p> Press the spacebar to continue. </p>")
-        .center()
         .italic()
     ,
     newKey(" ")
@@ -42,7 +38,6 @@ newTrial("instructions",
     newText("<p> <b> 4. Comprehension question </b>: Some of the sentences will be followed by a comprehension question. Respond by pressing the F or J key. </p>")
     ,
     newText("<p> Press the START button to continue. </p>")
-    	.center()
     	.italic()
     ,
     newButton("START")
