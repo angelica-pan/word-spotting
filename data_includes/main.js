@@ -42,6 +42,7 @@ AddTable( "test_items" ,
 	"A,4,Clash.Shift,SC_Clash_Shift_4.wav,target_4_A,question_4_A,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
 	"C,4,NoClash.NoShift,SC_NoClash_NoShift_4.wav,target_4_C,question_4_C,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
 	"B,4,NoClash.Shift,SC_NoClash_Shift_4.wav,target_4_B,question_4_B,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2"
+);
 
 AddTable( "test_fillers" ,
 	"item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n+"+
