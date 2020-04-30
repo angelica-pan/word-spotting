@@ -1,6 +1,7 @@
 PennController.ResetPrefix(null);                       // Initiates PennController
 var showProgressBar = false;                            // Don't show progress bar
 
+// experimental and filler items have to be separated so that experimental items are displayed by counterbalancing group, but all filler items are displayed
 Sequence(shuffle(randomize("items"), randomize("fillers")))
 
 // Instructions 
@@ -24,6 +25,7 @@ newTrial("instructions",
         .wait()
 )
 
+// experimental items for testing
 AddTable( "test_items" ,
     "group,item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n"+
 	"A,1,Clash.NoShift,SC_Clash_NoShift_1.wav,target_1_A,question_1_A,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
@@ -44,6 +46,7 @@ AddTable( "test_items" ,
 	"B,4,NoClash.Shift,SC_NoClash_Shift_4.wav,target_4_B,question_4_B,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2"
 );
 
+// filler items for testing
 AddTable( "test_fillers" ,
 	"item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n+"+
 	"1,filler,filler.wav,filler_1,,QUESTION?,YES,NO,answer_1\n+"+
@@ -52,7 +55,7 @@ AddTable( "test_fillers" ,
 	"4,filler,filler.wav,filler_4,,QUESTION?,YES,NO,answer_1"
 );
 
-// experimental item trial 
+// Experimental item trial 
 PennController.Template("test_items",
     variable => PennController("items",
         defaultText
@@ -118,7 +121,7 @@ PennController.Template("test_items",
 
 );
 
-// filler trial 
+// Filler item trial 
 PennController.Template("test_fillers",
     variable => PennController("fillers",
         defaultText
@@ -175,6 +178,30 @@ PennController.Template("test_fillers",
         newAudio("stimulus", variable.stimulus)
             .play()
             .wait() 
+    	,
+    	clear()
+        ,
+        newText("question", variable.question)
+            .settings.cssContainer({border: "solid 1px purple", "width": "600px", "font-size": "150%", "height": "50px"})
+            .center()
+        ,
+        newText("left", variable.left)
+            .settings.cssContainer({border: "solid 1px black", "width": "300px"})
+            .center()
+        ,
+        newText("right", variable.right)
+            .settings.cssContainer({border: "solid 1px red", "width": "300px"})
+            .center()
+        ,
+        newCanvas(600, 300)
+            .add(0, 100, getText("question"))
+            .add(0, 150, getText("left"))
+            .add(300, 150, getText("right"))
+            .print()
+        ,
+        newKey("FJ")
+            .wait()
+            .log()
     )
     .log("group",       variable.group)
     .log("item",        variable.item)
