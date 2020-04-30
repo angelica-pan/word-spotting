@@ -26,22 +26,22 @@ newTrial("instructions",
 
 AddTable( "test_items" ,
     "group,item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n"+
-	"A,1,Clash.NoShift,SC_Clash_NoShift_1.wav,target_1_A,"On the way home, the thirteen men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
-	"B,1,Clash.Shift,SC_Clash_Shift_1.wav,target_1_B,"On the way home, the thirteen men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
-	"C,1,NoClash.NoShift,SC_NoClash_NoShift_1.wav,target_1_C,"On the way home, the thrifty men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
-	"D,1,NoClash.Shift,SC_NoClash_Shift_1.wav,target_1_D,"On the way home, the thrifty men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
-	"B,2,Clash.NoShift,SC_Clash_NoShift_2.wav,target_2_B,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",,,,\n"+
-	"C,2,Clash.Shift,SC_Clash_Shift_2.wav,target_2_C,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",,,,\n"+
-	"A,2,NoClash.NoShift,SC_NoClash_NoShift_2.wav,target_2_A,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,\n"+
-	"D,2,NoClash.Shift,SC_NoClash_Shift_2.wav,target_2_D,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,\n"+
-	"C,3,Clash.NoShift,SC_Clash_NoShift_3.wav,target_3_C,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
-	"D,3,Clash.Shift,SC_Clash_Shift_3.wav,target_3_D,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
-	"B,3,NoClash.NoShift,SC_NoClash_NoShift_3.wav,target_3_B,"Despite the high cost, the stingy boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
-	"A,3,NoClash.Shift,SC_NoClash_Shift_3.wav,target_3_A,"Despite the high cost, the stingy boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
-	"D,4,Clash.NoShift,SC_Clash_NoShift_4.wav,target_4_D,"As the car passed, fourteen dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
-	"A,4,Clash.Shift,SC_Clash_Shift_4.wav,target_4_A,"As the car passed, fourteen dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
-	"C,4,NoClash.NoShift,SC_NoClash_NoShift_4.wav,target_4_C,"As the car passed, countless dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
-	"B,4,NoClash.Shift,SC_NoClash_Shift_4.wav,target_4_B,"As the car passed, countless dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2"
+	"A,1,Clash.NoShift,SC_Clash_NoShift_1.wav,target_1_A,question_1_A,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
+	"B,1,Clash.Shift,SC_Clash_Shift_1.wav,target_1_B,question_1_B,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
+	"C,1,NoClash.NoShift,SC_NoClash_NoShift_1.wav,target_1_C,question_1_C,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
+	"D,1,NoClash.Shift,SC_NoClash_Shift_1.wav,target_1_D,question_1_D,WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,answer_1\n"+
+	"B,2,Clash.NoShift,SC_Clash_NoShift_2.wav,target_2_B,question_2_B,,,,\n"+
+	"C,2,Clash.Shift,SC_Clash_Shift_2.wav,target_2_C,question_2_C,,,,\n"+
+	"A,2,NoClash.NoShift,SC_NoClash_NoShift_2.wav,target_2_A,question_2_A,,,,\n"+
+	"D,2,NoClash.Shift,SC_NoClash_Shift_2.wav,target_2_D,question_2_D,,,,\n"+
+	"C,3,Clash.NoShift,SC_Clash_NoShift_3.wav,target_3_C,question_3_C,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
+	"D,3,Clash.Shift,SC_Clash_Shift_3.wav,target_3_D,question_3_D,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
+	"B,3,NoClash.NoShift,SC_NoClash_NoShift_3.wav,target_3_B,question_3_B,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
+	"A,3,NoClash.Shift,SC_NoClash_Shift_3.wav,target_3_A,3_A,WAS THE MEAL EXPENSIVE?,YES,NO,answer_1\n"+
+	"D,4,Clash.NoShift,SC_Clash_NoShift_4.wav,target_4_D,question_4_D,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
+	"A,4,Clash.Shift,SC_Clash_Shift_4.wav,target_4_A,question_4_A,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
+	"C,4,NoClash.NoShift,SC_NoClash_NoShift_4.wav,target_4_C,question_4_C,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2\n"+
+	"B,4,NoClash.Shift,SC_NoClash_Shift_4.wav,target_4_B,question_4_B,WHAT DID THE DOGS DO?,GROWL,HOWL,answer_2"
 
 AddTable( "test_fillers" ,
 	"item,cond2,stimulus,target,sentence,question,answer_1,answer_2,correct\n+"+
