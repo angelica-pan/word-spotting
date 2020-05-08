@@ -1,0 +1,5 @@
+﻿item,condition,stimulus,target,sentence,question,answer_1,answer_2,correct
+1,filler,filler.wav,filler_1,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+2,filler,filler.wav,filler_2,This is a filler item.,,,,
+3,filler,filler.wav,filler_3,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+4,filler,filler.wav,filler_4,This is a filler item.,,,,
