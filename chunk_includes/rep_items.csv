@@ -1,21 +1,21 @@
 ﻿group,item,condition,stimulus,target,contains_target,sentence,question,answer_1,answer_2,correct,
-tbd,1,ambig,rep_ambig_1.wav,watch,Y,The sailor left his watch back on the table on the ship's deck that night.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
-tbd,1,unambig,rep_unambig_1.wav,scarf,Y,The sailor left his scarf back on the table on the ship's deck that night.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
-tbd,2,ambig,rep_ambig_2.wav,finish,Y,He nearly ruined his finish totally with a cough but saved the song in the end.,This is a filler item.,,,,
-tbd,2,unambig,rep_unambig_2.wav,conclusion,Y,He nearly ruined his conclusion totally with a cough but saved the song in the end.,This is a filler item.,,,,
-tbd,3,ambig,rep_ambig_3.wav,glare,Y,The unpleasant glare distracted the young woman who was studying biology in the library.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
-tbd,3,unambig,rep_unambig_3.wav,light,Y,The unpleasant light distracted the young woman who was studying biology in the library.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
-tbd,4,ambig,rep_ambig_4.wav,drill,Y,One more drill meant a complete costume change for the young actors.,This is a filler item.,,,,
-tbd,4,unambig,rep_unambig_4.wav,rehearsal,Y,One more rehearsal meant a complete costume change for the young actors.,This is a filler item.,,,,
-tbd,5,ambig,rep_ambig_5.wav,fans,Y,The roar of the fans bothered the rookie players during their first away game.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
-tbd,5,unambig,rep_unambig_5.wav,crowd,Y,The roar of the crowd bothered the rookie players during their first away game.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
-tbd,6,ambig,rep_ambig_6.wav,file,Y,The nervous secretary checked the file before the important meeting started that morning.,This is a filler item.,,,,
-tbd,6,unambig,rep_unambig_6.wav,drawer,Y,The nervous secretary checked the drawer before the important meeting started that morning.,This is a filler item.,,,,
-tbd,7,ambig,rep_ambig_7.wav,blow,Y,The hard blow caused the terrible pileup on the freeway but no one was hurt.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
-tbd,7,unambig,rep_unambig_7.wav,impact,Y,The hard impact caused the terrible pileup on the freeway but no one was hurt.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
-tbd,8,ambig,rep_ambig_8.wav,pipe,Y,Paul took a pipe down from the rack in the tobacco store on the main street.,This is a filler item.,,,,
-tbd,8,unambig,rep_unambig_8.wav,cigar,Y,Paul took a cigar down from the rack in the tobacco store on main street.,This is a filler item.,,,,
-tbd,9,ambig,rep_ambig_9.wav,stock,Y,George sold the stock for his client and ended up with a very small profit.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
-tbd,9,unambig,rep_unambig_9.wav,bond,Y,George sold the bond for his client and ended up with a very small profit.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
-tbd,10,ambig,rep_ambig_10.wav,charge,Y,Ruth protested the charge by shouting at the store manager at the top of her lungs.,This is a filler item.,,,,
-tbd,10,unambig,rep_unambig_10.wav,slur,Y,Ruth protested the slur by shouting at the store manager at the top of her lungs.,This is a filler item.,,,,
+tbd,1,ambig,Rep_Ambig_1.wav,watch,Y,The sailor left his watch back on the table on the ship's deck that night.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+tbd,1,unambig,Rep_Unambig_1.wav,scarf,Y,The sailor left his scarf back on the table on the ship's deck that night.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+tbd,2,ambig,Rep_Ambig_2.wav,finish,Y,He nearly ruined his finish totally with a cough but saved the song in the end.,This is a filler item.,,,,
+tbd,2,unambig,Rep_Unambig_2.wav,conclusion,Y,He nearly ruined his conclusion totally with a cough but saved the song in the end.,This is a filler item.,,,,
+tbd,3,ambig,Rep_Ambig_3.wav,glare,Y,The unpleasant glare distracted the young woman who was studying biology in the library.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+tbd,3,unambig,Rep_Unambig_3.wav,light,Y,The unpleasant light distracted the young woman who was studying biology in the library.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+tbd,4,ambig,Rep_Ambig_4.wav,drill,Y,One more drill meant a complete costume change for the young actors.,This is a filler item.,,,,
+tbd,4,unambig,Rep_Unambig_4.wav,rehearsal,Y,One more rehearsal meant a complete costume change for the young actors.,This is a filler item.,,,,
+tbd,5,ambig,Rep_Ambig_5.wav,fans,Y,The roar of the fans bothered the rookie players during their first away game.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+tbd,5,unambig,Rep_Unambig_5.wav,crowd,Y,The roar of the crowd bothered the rookie players during their first away game.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+tbd,6,ambig,Rep_Ambig_6.wav,file,Y,The nervous secretary checked the file before the important meeting started that morning.,This is a filler item.,,,,
+tbd,6,unambig,Rep_Unambig_6.wav,drawer,Y,The nervous secretary checked the drawer before the important meeting started that morning.,This is a filler item.,,,,
+tbd,7,ambig,Rep_Ambig_7.wav,blow,Y,The hard blow caused the terrible pileup on the freeway but no one was hurt.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+tbd,7,unambig,Rep_Unambig_7.wav,impact,Y,The hard impact caused the terrible pileup on the freeway but no one was hurt.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+tbd,8,ambig,Rep_Ambig_8.wav,pipe,Y,Paul took a pipe down from the rack in the tobacco store on the main street.,This is a filler item.,,,,
+tbd,8,unambig,Rep_Unambig_8.wav,cigar,Y,Paul took a cigar down from the rack in the tobacco store on main street.,This is a filler item.,,,,
+tbd,9,ambig,Rep_Ambig_9.wav,stock,Y,George sold the stock for his client and ended up with a very small profit.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+tbd,9,unambig,Rep_Unambig_9.wav,bond,Y,George sold the bond for his client and ended up with a very small profit.,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+tbd,10,ambig,Rep_Ambig_10.wav,charge,Y,Ruth protested the charge by shouting at the store manager at the top of her lungs.,This is a filler item.,,,,
+tbd,10,unambig,Rep_Unambig_10.wav,slur,Y,Ruth protested the slur by shouting at the store manager at the top of her lungs.,This is a filler item.,,,,
