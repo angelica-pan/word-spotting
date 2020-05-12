@@ -1,5 +1,5 @@
-﻿item,condition,stimulus,target,contains_target,sentence,question,answer_1,answer_2,correct
-1,filler_np,Filler_NP_1.wav,RESULT,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+﻿item,condition,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
+1,filler_np,Filler_NP_1.wav,RESULT,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 2,filler_np,Filler_NP_2.wav,BEFORE,Y,This is a filler item.,,,,
-3,filler_np,Filler_NP_3.wav,CHANGE,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+3,filler_np,Filler_NP_3.wav,CHANGE,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 4,filler_np,Filler_NP_4.wav,NEVER,Y,This is a filler item.,,,,

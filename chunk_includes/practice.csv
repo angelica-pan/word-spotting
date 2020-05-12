@@ -1,3 +1,3 @@
-﻿item,condition,stimulus,target,contains_target,sentence,question,answer_1,answer_2,correct
-1,practice,Practice_1.wav,ANNUAL,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+﻿item,condition,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
+1,practice,Practice_1.wav,ANNUAL,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 2,practice,Practice_2.wav,FAMOUS,N,This is a filler item.,,,,

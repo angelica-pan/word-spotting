@@ -1,29 +1,29 @@
-﻿item,condition,stimulus,target,contains_target,sentence,question,answer_1,answer_2,correct
-1,filler_np,Filler_NP_1.wav,RESULT,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+﻿item,condition,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
+1,filler_np,Filler_NP_1.wav,RESULT,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 2,filler_np,Filler_NP_2.wav,BEFORE,Y,This is a filler item.,,,,
-3,filler_np,Filler_NP_3.wav,CHANGE,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+3,filler_np,Filler_NP_3.wav,CHANGE,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 4,filler_np,Filler_NP_4.wav,NEVER,Y,This is a filler item.,,,,
-5,filler_np,Filler_NP_5.wav,ADMIRING,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+5,filler_np,Filler_NP_5.wav,ADMIRING,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 6,filler_np,Filler_NP_6.wav,CLASS,Y,This is a filler item.,,,,
-7,filler_np,Filler_NP_7.wav,VISA,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+7,filler_np,Filler_NP_7.wav,VISA,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 8,filler_np,Filler_NP_8.wav,ADDITION,Y,This is a filler item.,,,,
-9,filler_np,Filler_NP_9.wav,LIVED,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+9,filler_np,Filler_NP_9.wav,LIVED,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 10,filler_np,Filler_NP_10.wav,HOUR,Y,This is a filler item.,,,,
-11,filler_np,Filler_NP_11.wav,METHOD,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+11,filler_np,Filler_NP_11.wav,METHOD,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 12,filler_np,Filler_NP_12.wav,ACTS,Y,This is a filler item.,,,,
-13,filler_np,Filler_NP_13.wav,LAW,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+13,filler_np,Filler_NP_13.wav,LAW,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 14,filler_np,Filler_NP_14.wav,NOTE,N,This is a filler item.,,,,
-15,filler_np,Filler_NP_15.wav,GLASSES,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+15,filler_np,Filler_NP_15.wav,GLASSES,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 16,filler_np,Filler_NP_16.wav,CHECK,N,This is a filler item.,,,,
-17,filler_np,Filler_NP_17.wav,COURT,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+17,filler_np,Filler_NP_17.wav,COURT,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 18,filler_np,Filler_NP_18.wav,CHAIR,N,This is a filler item.,,,,
-19,filler_np,Filler_NP_19.wav,SUNDAY,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+19,filler_np,Filler_NP_19.wav,SUNDAY,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 20,filler_np,Filler_NP_20.wav,WEIGHT,N,This is a filler item.,,,,
-21,filler_np,Filler_NP_21.wav,APPLES,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+21,filler_np,Filler_NP_21.wav,APPLES,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 22,filler_np,Filler_NP_22.wav,LATER,N,This is a filler item.,,,,
-23,filler_np,Filler_NP_23.wav,SANDALS,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+23,filler_np,Filler_NP_23.wav,SANDALS,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 24,filler_np,Filler_NP_24.wav,TICKETS,N,This is a filler item.,,,,
-25,filler_np,Filler_NP_25.wav,CASH,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_1
+25,filler_np,Filler_NP_25.wav,CASH,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
 26,filler_np,Filler_NP_26.wav,LETTER,N,This is a filler item.,,,,
-27,filler_np,Filler_NP_27.wav,SLEEPY,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,answer_2
+27,filler_np,Filler_NP_27.wav,SLEEPY,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
 28,filler_np,Filler_NP_28.wav,STAIRWELL,N,This is a filler item.,,,,
