@@ -5,13 +5,13 @@ C,sc,NoClash.NoShift,1,SC_NoClash_NoShift_1.wav,MEN (C1),Y,"On the way home, the
 D,sc,NoClash.Shift,1,SC_NoClash_Shift_1.wav,MEN (D1),Y,"On the way home, the thrifty men from the construction-site stopped at the dollar store.",WHERE DID THE MEN STOP?,THE DOLLAR STORE,THE CONSTRUCTION SITE,F
 B,sc,Clash.NoShift,2,SC_Clash_NoShift_2.wav,GUEST (B2),Y,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",,,,
 C,sc,Clash.Shift,2,SC_Clash_Shift_2.wav,GUEST (C2),Y,"Just as the party ended, the unkind guest from the next town over criticized the host's hair.",,,,
-A,sc,NoClash.NoShift,2,SC_NoClash_NoShift_2.wav,GUEST (A2),Y,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,
-D,sc,NoClash.Shift,2,SC_NoClash_Shift_2.wav,GUEST (D2),Y,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,
-C,sc,Clash.NoShift,3,SC_Clash_NoShift_3.wav,BOSS (C3),Y,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
-D,sc,Clash.Shift,3,SC_Clash_Shift_3.wav,BOSS (D3),Y,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
+D,sc,NoClash.NoShift,2,SC_NoClash_NoShift_2.wav,GUEST (A2),Y,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,
+A,sc,NoClash.Shift,2,SC_NoClash_Shift_2.wav,GUEST (D2),Y,"Just as the party ended, the spiteful guest from the next town over criticized the host's hair.",,,,
+D,sc,Clash.NoShift,3,SC_Clash_NoShift_3.wav,BOSS (C3),Y,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
+A,sc,Clash.Shift,3,SC_Clash_Shift_3.wav,BOSS (D3),Y,"Despite the high cost, the unkind boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
 B,sc,NoClash.NoShift,3,SC_NoClash_NoShift_3.wav,BOSS (B3),Y,"Despite the high cost, the stingy boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
-A,sc,NoClash.Shift,3,SC_NoClash_Shift_3.wav,BOSS (A3),Y,"Despite the high cost, the stingy boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
-D,sc,Clash.NoShift,4,SC_Clash_NoShift_4.wav,DOGS (D4),Y,"As the car passed, fourteen dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
-A,sc,Clash.Shift,4,SC_Clash_Shift_4.wav,DOGS (A4),Y,"As the car passed, fourteen dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
-C,sc,NoClash.NoShift,4,SC_NoClash_NoShift_4.wav,DOGS (C4),Y,"As the car passed, countless dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
+C,sc,NoClash.Shift,3,SC_NoClash_Shift_3.wav,BOSS (A3),Y,"Despite the high cost, the stingy boss from the new management didn't cover the meal.",WAS THE MEAL EXPENSIVE?,YES,NO,F
+C,sc,Clash.NoShift,4,SC_Clash_NoShift_4.wav,DOGS (D4),Y,"As the car passed, fourteen dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
+D,sc,Clash.Shift,4,SC_Clash_Shift_4.wav,DOGS (A4),Y,"As the car passed, fourteen dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
+A,sc,NoClash.NoShift,4,SC_NoClash_NoShift_4.wav,DOGS (C4),Y,"As the car passed, countless dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
 B,sc,NoClash.Shift,4,SC_NoClash_Shift_4.wav,DOGS (B4),Y,"As the car passed, countless dogs by the side of the road started howling loudly.",WHAT DID THE DOGS DO?,GROWL,HOWL,J
