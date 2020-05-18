@@ -1,11 +1,11 @@
-﻿item,condition,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
-1,filler_p,Filler_P_1.wav,CHIPS,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-2,filler_p,Filler_P_2.wav,WINDED,N,This is a filler item.,,,,
-3,filler_p,Filler_P_3.wav,SECRET,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-4,filler_p,Filler_P_4.wav,STRANGE,N,This is a filler item.,,,,
-5,filler_p,Filler_P_5.wav,COUNCIL,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-6,filler_p,Filler_P_6.wav,CHEDDAR,N,This is a filler item.,,,,
-7,filler_p,Filler_P_7.wav,SERVICE,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-8,filler_p,Filler_P_8.wav,PERIOD,N,This is a filler item.,,,,
-9,filler_p,Filler_P_9.wav,HALLWAY,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-10,filler_p,Filler_P_10.wav,BACKPACK,N,This is a filler item.,,,,
+﻿experiment,condition,item,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
+filler,p,1,Filler_P_1.wav,CHIPS,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+filler,p,2,Filler_P_2.wav,WINDED,N,This is a filler item.,,,,
+filler,p,3,Filler_P_3.wav,SECRET,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+filler,p,4,Filler_P_4.wav,STRANGE,N,This is a filler item.,,,,
+filler,p,5,Filler_P_5.wav,COUNCIL,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+filler,p,6,Filler_P_6.wav,CHEDDAR,N,This is a filler item.,,,,
+filler,p,7,Filler_P_7.wav,SERVICE,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+filler,p,8,Filler_P_8.wav,PERIOD,N,This is a filler item.,,,,
+filler,p,9,Filler_P_9.wav,HALLWAY,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+filler,p,10,Filler_P_10.wav,BACKPACK,N,This is a filler item.,,,,

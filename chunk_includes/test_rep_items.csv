@@ -1,9 +1,9 @@
-﻿group,item,condition,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
-AC,1,ambig,Rep_Ambig_1.wav,WATCH (AC1),Y,The sailor left his watch back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,1,unambig,Rep_Unambig_1.wav,SCARF (BD1),Y,The sailor left his scarf back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,2,ambig,Rep_Ambig_2.wav,FINISH (BD2),Y,He nearly ruined his finish totally with a cough but saved the song in the end.,,,,
-AC,2,unambig,Rep_Unambig_2.wav,CONCLUSION (AC2),Y,He nearly ruined his conclusion totally with a cough but saved the song in the end.,,,,
-AC,3,ambig,Rep_Ambig_3.wav,GLARE (AC3),Y,The unpleasant glare distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-BD,3,unambig,Rep_Unambig_3.wav,LIGHT (BD3),Y,The unpleasant light distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-BD,4,ambig,Rep_Ambig_4.wav,DRILL (BD4),Y,One more drill meant a complete costume change for the young actors.,,,,
-AC,4,unambig,Rep_Unambig_4.wav,REHEARSAL (AC4),Y,One more rehearsal meant a complete costume change for the young actors.,,,,
+﻿group,experiment,condition,item,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
+AC,rep,ambig,1,Rep_Ambig_1.wav,WATCH (AC1),Y,The sailor left his watch back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,rep,unambig,1,Rep_Unambig_1.wav,SCARF (BD1),Y,The sailor left his scarf back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,rep,ambig,2,Rep_Ambig_2.wav,FINISH (BD2),Y,He nearly ruined his finish totally with a cough but saved the song in the end.,,,,
+AC,rep,unambig,2,Rep_Unambig_2.wav,CONCLUSION (AC2),Y,He nearly ruined his conclusion totally with a cough but saved the song in the end.,,,,
+AC,rep,ambig,3,Rep_Ambig_3.wav,GLARE (AC3),Y,The unpleasant glare distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+BD,rep,unambig,3,Rep_Unambig_3.wav,LIGHT (BD3),Y,The unpleasant light distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+BD,rep,ambig,4,Rep_Ambig_4.wav,DRILL (BD4),Y,One more drill meant a complete costume change for the young actors.,,,,
+AC,rep,unambig,4,Rep_Unambig_4.wav,REHEARSAL (AC4),Y,One more rehearsal meant a complete costume change for the young actors.,,,,
