@@ -1,21 +1,21 @@
-﻿group,experiment,condition,item,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
-AC,rep,ambig,1,Rep_Ambig_1.wav,WATCH,Y,The sailor left his watch back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,rep,unambig,1,Rep_Unambig_1.wav,SCARF,Y,The sailor left his scarf back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,rep,ambig,2,Rep_Ambig_2.wav,FINISH,Y,He nearly ruined his finish totally with a cough but saved the song in the end.,,,,
-AC,rep,unambig,2,Rep_Unambig_2.wav,CONCLUSION,Y,He nearly ruined his conclusion totally with a cough but saved the song in the end.,,,,
-AC,rep,ambig,3,Rep_Ambig_3.wav,GLARE,Y,The unpleasant glare distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-BD,rep,unambig,3,Rep_Unambig_3.wav,LIGHT,Y,The unpleasant light distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-BD,rep,ambig,4,Rep_Ambig_4.wav,DRILL,Y,One more drill meant a complete costume change for the young actors.,,,,
-AC,rep,unambig,4,Rep_Unambig_4.wav,REHEARSAL,Y,One more rehearsal meant a complete costume change for the young actors.,,,,
-AC,rep,ambig,5,Rep_Ambig_5.wav,FANS,Y,The roar of the fans bothered the rookie players during their first away game.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,rep,unambig,5,Rep_Unambig_5.wav,CROWD,Y,The roar of the crowd bothered the rookie players during their first away game.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,rep,ambig,6,Rep_Ambig_6.wav,FILE,Y,The nervous secretary checked the file before the important meeting started that morning.,,,,
-AC,rep,unambig,6,Rep_Unambig_6.wav,DRAWER,Y,The nervous secretary checked the drawer before the important meeting started that morning.,,,,
-AC,rep,ambig,7,Rep_Ambig_7.wav,BLOW,Y,The hard blow caused the terrible pileup on the freeway but no one was hurt.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-BD,rep,unambig,7,Rep_Unambig_7.wav,IMPACT,Y,The hard impact caused the terrible pileup on the freeway but no one was hurt.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-BD,rep,ambig,8,Rep_Ambig_8.wav,PIPE,Y,Paul took a pipe down from the rack in the tobacco store on the main street.,,,,
-AC,rep,unambig,8,Rep_Unambig_8.wav,CIGAR,Y,Paul took a cigar down from the rack in the tobacco store on main street.,,,,
-AC,rep,ambig,9,Rep_Ambig_9.wav,STOCK,Y,George sold the stock for his client and ended up with a very small profit.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,rep,unambig,9,Rep_Unambig_9.wav,BOND,Y,George sold the bond for his client and ended up with a very small profit.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-BD,rep,ambig,10,Rep_Ambig_10.wav,CHARGE,Y,Ruth protested the charge by shouting at the store manager at the top of her lungs.,,,,
-AC,rep,unambig,10,Rep_Unambig_10.wav,SLUR,Y,Ruth protested the slur by shouting at the store manager at the top of her lungs.,,,,
+﻿group,condition,item,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
+AC,ambig,1,Rep_Ambig_1.wav,WATCH,Y,The sailor left his watch back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,unambig,1,Rep_Unambig_1.wav,SCARF,Y,The sailor left his scarf back on the table on the ship's deck that night.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,ambig,2,Rep_Ambig_2.wav,FINISH,Y,He nearly ruined his finish totally with a cough but saved the song in the end.,,,,
+AC,unambig,2,Rep_Unambig_2.wav,CONCLUSION,Y,He nearly ruined his conclusion totally with a cough but saved the song in the end.,,,,
+AC,ambig,3,Rep_Ambig_3.wav,GLARE,Y,The unpleasant glare distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+BD,unambig,3,Rep_Unambig_3.wav,LIGHT,Y,The unpleasant light distracted the young woman who was studying biology in the library.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+BD,ambig,4,Rep_Ambig_4.wav,DRILL,Y,One more drill meant a complete costume change for the young actors.,,,,
+AC,unambig,4,Rep_Unambig_4.wav,REHEARSAL,Y,One more rehearsal meant a complete costume change for the young actors.,,,,
+AC,ambig,5,Rep_Ambig_5.wav,FANS,Y,The roar of the fans bothered the rookie players during their first away game.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,unambig,5,Rep_Unambig_5.wav,CROWD,Y,The roar of the crowd bothered the rookie players during their first away game.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,ambig,6,Rep_Ambig_6.wav,FILE,Y,The nervous secretary checked the file before the important meeting started that morning.,,,,
+AC,unambig,6,Rep_Unambig_6.wav,DRAWER,Y,The nervous secretary checked the drawer before the important meeting started that morning.,,,,
+AC,ambig,7,Rep_Ambig_7.wav,BLOW,Y,The hard blow caused the terrible pileup on the freeway but no one was hurt.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+BD,unambig,7,Rep_Unambig_7.wav,IMPACT,Y,The hard impact caused the terrible pileup on the freeway but no one was hurt.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+BD,ambig,8,Rep_Ambig_8.wav,PIPE,Y,Paul took a pipe down from the rack in the tobacco store on the main street.,,,,
+AC,unambig,8,Rep_Unambig_8.wav,CIGAR,Y,Paul took a cigar down from the rack in the tobacco store on main street.,,,,
+AC,ambig,9,Rep_Ambig_9.wav,STOCK,Y,George sold the stock for his client and ended up with a very small profit.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,unambig,9,Rep_Unambig_9.wav,BOND,Y,George sold the bond for his client and ended up with a very small profit.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+BD,ambig,10,Rep_Ambig_10.wav,CHARGE,Y,Ruth protested the charge by shouting at the store manager at the top of her lungs.,,,,
+AC,unambig,10,Rep_Unambig_10.wav,SLUR,Y,Ruth protested the slur by shouting at the store manager at the top of her lungs.,,,,
