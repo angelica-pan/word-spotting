@@ -1,3 +1,3 @@
 ﻿condition,item,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct,feedback
-practice,1,Practice_1.wav,ANNUAL,Y,The accountant surprised everyone by winning the ANNUAL softball competition.,SAMPLE QUESTION GOES HERE.,YES,NO,F,"The target word WAS in the sentence, so hopefully you pressed the spacebar!"
+practice,1,Practice_1.wav,ANNUAL,Y,The accountant surprised everyone by winning the ANNUAL softball competition.,WHO WON THE SOFTBALL COMPETITION? ,THE ACCOUNTANT,THE LAWYER,F,"The target word WAS in the sentence, so you should have pressed the spacebar. Remember to respond as quickly as possible!"
 practice,2,Practice_2.wav,FAMOUS,N,"Although the artist had become fairly well-known, he never promoted his work during his lifetime.",,,,,"The target word was NOT in the sentence, so hopefully you didn't press the spacebar!"

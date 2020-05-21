@@ -1,9 +1,9 @@
 ﻿condition,item,stimulus,target,contains_target,sentence,question,answer_F,answer_J,correct
-np,1,Filler_NP_1.wav,RESULT,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
+np,1,Filler_NP_1.wav,RESULT,Y,This is a filler item.,WHERE WAS SHATTERPROOF GLASS INVENTED? ,A CHEMISTRY LAB,A PHYSICS LAB,F
 np,2,Filler_NP_2.wav,BEFORE,Y,This is a filler item.,,,,
-np,3,Filler_NP_3.wav,CHANGE,Y,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
+np,3,Filler_NP_3.wav,CHANGE,Y,This is a filler item.,WHO HOPES PEOPLE WILL PRINT LESS? ,A POLITICIAN,A JOURNALIST,J
 np,4,Filler_NP_4.wav,NEVER,Y,This is a filler item.,,,,
-p,1,Filler_P_1.wav,CHIPS,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,F
-p,2,Filler_P_2.wav,WINDED,N,This is a filler item.,,,,
-p,3,Filler_P_3.wav,SECRET,N,This is a filler item.,SAMPLE QUESTION GOES HERE.,YES,NO,J
-p,4,Filler_P_4.wav,STRANGE,N,This is a filler item.,,,,
+p,1,Filler_P_1.wav,CHIPS,N,This is a filler item.,WHAT WAS DAMAGED?,THE RUG,THE COUCH,F
+p,2,Filler_P_2.wav,WINDED,N,This is a filler item.,WAS JOHN A LUCKY SAILOR?,YES,NO,J
+p,3,Filler_P_3.wav,SECRET,N,This is a filler item.,DID THE CODE PROVIDE VALUABLE INTEL?,YES,NO,F
+p,4,Filler_P_4.wav,STRANGE,N,This is a filler item.,WHERE DID THE PEOPLE FALL ASLEEP?,THE BUS,THE TRAIN,F
