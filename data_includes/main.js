@@ -236,7 +236,8 @@ customTrial = label => variable => newTrial( label ,
     ,
     newAudio("stimulus", variable.stimulus)
         .play()
-        .log()
+        .log("play")
+        .log("end")
         .wait() 
     ,
     newKey("spacebar_press", " ")          
@@ -267,6 +268,7 @@ customTrial = label => variable => newTrial( label ,
         .add(300, 200, getText("answer_J"))
         .add(0, 250, getText("reminder"))
         .print()
+        .log()
     ,
     newKey("FJ_press", "FJ")
         .wait()
