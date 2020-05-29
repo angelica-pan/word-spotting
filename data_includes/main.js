@@ -13,8 +13,10 @@ customButton = text  =>
 // Testing sequence (4 sc items, 4 rep items, 4 fillers) 
 // Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", shuffle(randomize("test_sc"), randomize("test_rep"), randomize("test_fillers")), "exit", "send", "confirmation")
 
+Sequence("exit", "send", "confirmation")
+
 // Actual experimental sequence
-Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", shuffle(randomize("sc"), randomize("rep"), randomize("fillers")), "exit", "send", "confirmation")
+//Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", shuffle(randomize("sc"), randomize("rep"), randomize("fillers")), "exit", "send", "confirmation")
 
 SetCounter("counter", "inc", 1);
 
