@@ -11,10 +11,10 @@ customButton = text  =>
         .wait()
         
 // Testing sequence (4 sc items, 4 rep items, 4 fillers) 
-Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", shuffle(randomize("test_sc"), randomize("test_rep"), randomize("test_fillers")), "exit", "send", "confirmation")
+// Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", shuffle(randomize("test_sc"), randomize("test_rep"), randomize("test_fillers")), "exit", "send", "confirmation")
 
 // Actual experimental sequence
-// Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", shuffle(randomize("sc"), randomize("rep"), randomize("fillers")), "exit", "send", "confirmation")
+Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", shuffle(randomize("sc"), randomize("rep"), randomize("fillers")), "exit", "send", "confirmation")
 
 SetCounter("counter", "inc", 1);
 
@@ -155,18 +155,11 @@ newTrial("post-practice",
         .bold()
         .css({"width": "300px"})
     ,
-    newText("continue", "Press the spacebar to start the experiment.")
-        .center()
-        .italic()
-        .css({"width": "300px"})
-    ,
-    newCanvas(300, 300)
+    newCanvas(300, 190)
         .add(0, 150, getText("done"))
-        .add(0, 200, getText("continue"))
         .print()
     ,
-    newKey(" ")
-        .wait()
+    customButton("Click here to start the experiment")
 )
 
 // Exit form 
@@ -215,14 +208,16 @@ customTrial = label => variable => newTrial( label ,
         .italic()
         .cssContainer({"width": "300px"})
     ,
-    newCanvas(300, 300)
+    newCanvas("t_display", 300, 300)
         .add(0, 100, getText("listen_for"))
         .add(0, 145, getText("target_word"))
         .add(0, 210, getText("next"))
+        .log()
         .print()
     ,
-    newKey(" ")
+    newKey("continue", " ")
         .wait()
+        .log()
     ,
     clear()
     ,
@@ -234,15 +229,15 @@ customTrial = label => variable => newTrial( label ,
         .add(0, 10, getImage("fixation_cross"))
         .print()
     ,
+    newKey("spacebar_press", " ")          
+        // logs all [spacebar] presses (https://www.pcibex.net/forums/topic/cant-get-results-properly-recorded/)    
+        .log("all")                         
+    ,
     newAudio("stimulus", variable.stimulus)
         .play()
         .log("play")
         .log("end")
         .wait() 
-    ,
-    newKey("spacebar_press", " ")          
-        // logs all [spacebar] presses (https://www.pcibex.net/forums/topic/cant-get-results-properly-recorded/)    
-        .log("all")                         
     ,
 	clear()
     ,
@@ -262,7 +257,7 @@ customTrial = label => variable => newTrial( label ,
         .italic()
         .cssContainer({"width": "600px"})
     ,
-    newCanvas(600, 300)
+    newCanvas("q_display", 600, 300)
         .add(0, 145, getText("question"))
         .add(0, 200, getText("answer_F"))
         .add(300, 200, getText("answer_J"))
