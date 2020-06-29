@@ -1,8 +1,43 @@
+//
+// 20SE1_WordSpotting (auditory monitoring task)
+//
+
+// Experiment sequence:
+// 1. Consent form 
+// 2. Linguistic background form
+// 3. Sound check
+// 4. Welcome screen and experiment instructions
+// 5. Practice trials
+// 6. Post-practice screen
+// 7. Experimental trials
+// 8. Exit form
+// 9. Send results
+// 10. End of experiment confirmation
+
+// Experimental trial format:
+// A. Target word (participant presses Spacebar to continue)
+// B. Audio stimulus
+// C. Reaction (participant presses Spacebar to indicate target word)
+// D. Comprehension question (participant presses F or J to answer comprehension question)
+// E. Feedback (participant sees feedback and presses Spacebar to continue)
+
+// Sections 4 and 5 only display when the source CSV has non-empty [question] and [feedback] values
+// CSV must have the following column(s): [target], [stimulus]
+// CSV should have the following column(s): [question], [F_answer], [J_answer], [feedback] 
+// CSV should have the following column(s) for logging: [group], [condition], [item], [contains_target], [answer]
+
+// Angelica Pan, June 2020
+
+////////////////////////////////////////////////////////////////////////////////
+
 PennController.ResetPrefix(null);                       // Initiates PennController
-PennController.DebugOff()
+PennController.DebugOff()								// Comment out this line to remove debug window
 var showProgressBar = false;                            // Don't show progress bar
 
-// Custom button: creates button with blue background
+////////////////////////////////////////////////////////////////////////////////
+
+
+// Custom button: create button with blue background
 customButton = text  => 
     newButton(text)
         .center()
@@ -10,14 +45,35 @@ customButton = text  =>
         .print()
         .wait()
         
-// Testing sequence (4 sc items, 4 rep items, 4 fillers) 
-// Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", shuffle(randomize("test_sc"), randomize("test_rep"), randomize("test_fillers")), "exit", "send", "confirmation")
 
-// Actual experimental sequence
-Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", shuffle(randomize("sc"), randomize("rep"), randomize("fillers")), "exit", "send", "confirmation")
+// Test sequence
+// Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", rshuffle("test_sc", "test_rep", "test_fillers"), "exit", "send", "confirmation")
+
+// Experiment sequence
+Sequence("consent", "background", "sound_check", "welcome", "practice", "post-practice", "counter", rshuffle("sc", "rep", "fillers"), "exit", "send", "confirmation")
 
 SetCounter("counter", "inc", 1);
 
+////////////////////////////////////////////////////////////////////////////////
+
+// 1. Consent form
+newTrial("consent",
+    newHtml("consent_form", "UC-consent.html")
+        .settings.cssContainer({"width": "720px"})
+        .checkboxWarning("You must consent before continuing.")
+        .print()
+    ,
+    newButton("Click here to continue")
+        .center()
+        .css({"background-color":"lightblue"})
+        .print()
+        .wait(
+            getHtml("consent_form").test.complete()
+            .failure(getHtml("consent_form").warn() )
+        )
+)
+
+// 2. Linguistic background form
 newTrial("background",
     newHtml("background", "UC-background.html")
         .log()
@@ -36,31 +92,13 @@ newTrial("background",
         )
 )
 
-
-// Consent form
-newTrial("consent",
-    newHtml("consent_form", "UC-consent.html")
-        .settings.cssContainer({"width": "720px"})
-        .checkboxWarning("You must consent before continuing.")
-        .print()
-    ,
-    newButton("Click here to continue")
-        .center()
-        .css({"background-color":"lightblue"})
-        .print()
-        .wait(
-            getHtml("consent_form").test.complete()
-            .failure(getHtml("consent_form").warn() )
-        )
-)
-
-// Sound check
+// 3. Sound check
 newTrial("sound_check",
     defaultText
         .css({"width": "720px"})
         .center()
     ,
-    // Sound check pt. 1: participant hears looping tones
+    // Pt. 1: participant hears looping tones
     newText("<p> Please check that your headphones or computer speakers are working by pressing the play button below.</p>")
         .print()
     ,
@@ -80,7 +118,7 @@ newTrial("sound_check",
     ,
     clear()
     ,
-    // Sound check pt. 2: participant hears and transcribes a word
+    // Pt. 2: participant hears and transcribes a word
     newText("<p> Please click play to listen to a word, and type what you hear into the text box below. </p>")
         .print()
     ,
@@ -104,15 +142,12 @@ newTrial("sound_check",
         .print()
         .wait(
             getTextInput("test_sentence")
-                // Regular expression that the [text input box] should match (the -i flag ignores case)
+                // Regular expression that the [text input box] should match (the [i] flag ignores case)
+                // If [text input] doesn't match, print [incorrect] error message
+                // If [text input] matches, remove any previous [incorrect] error message and move on.
                 .test.text(/california/i) 
-                    // If [text input] doesn't match, print [incorrect] error message
                     .failure(getText("incorrect").print())
-                    // If [text input] matches, remove any previous [incorrect] error message and move on.
-                    .success(
-                        getText("incorrect")
-                            .remove()
-                    )
+                    .success(getText("incorrect").remove())
             )
     ,
     getButton("validate")
@@ -121,7 +156,7 @@ newTrial("sound_check",
     customButton("Click here to continue")
 )
 
-// Instructions 
+// 4. Welcome screen and experiment instructions 
 newTrial("welcome",
     newText("next", "Press the spacebar to continue.")
         .italic()
@@ -147,8 +182,7 @@ newTrial("welcome",
 )
 
 
-
-// Post-practice items
+// 6. Post-practice screen
 newTrial("post-practice",
     newText("done", "That was it for the practice items!")
         .center()
@@ -162,7 +196,7 @@ newTrial("post-practice",
     customButton("Click here to start the experiment")
 )
 
-// Exit form 
+// 8. Exit form 
 newTrial("exit",
     newHtml("exit_form", "UC-exit.html")
         .log()
@@ -181,7 +215,10 @@ newTrial("exit",
         )
 )
 
-// End of experiment confirmation
+// 9. Send results
+PennController.SendResults("send");
+
+// 10. End of experiment confirmation
 newTrial("confirmation",
     newText("Thank you for participating! You may now exit the window.")
         .center()
@@ -191,12 +228,12 @@ newTrial("confirmation",
         .wait()
 )
 
-// Trial item template (https://www.pcibex.net/forums/topic/mixing-fillers-and-items/#post-5200)
+// 5. and 8. Trial items
 customTrial = label => variable => newTrial( label ,
     defaultText
         .center()
     ,
-    // Display target word 
+	// A. Target word is displayed (participant presses Spacebar to continue)
     newText("listen_for", "Listen for:")
         .cssContainer({"width": "300px"})
     ,
@@ -221,7 +258,7 @@ customTrial = label => variable => newTrial( label ,
     ,
     clear()
     ,
-    // Play audio stimulus and record reaction time
+	// B. Audio stimulus plays
     newImage("fixation_cross", "fixation_cross.png")
         .size(300,300)
     ,
@@ -229,8 +266,8 @@ customTrial = label => variable => newTrial( label ,
         .add(0, 10, getImage("fixation_cross"))
         .print()
     ,
-    newKey("spacebar_press", " ")          
-        // logs all [spacebar] presses (https://www.pcibex.net/forums/topic/cant-get-results-properly-recorded/)    
+	// C. Reaction (participant presses Spacebar to indicate target word)
+    newKey("spacebar_press", " ")             
         .log("all")                         
     ,
     newAudio("stimulus", variable.stimulus)
@@ -241,7 +278,7 @@ customTrial = label => variable => newTrial( label ,
     ,
 	clear()
     ,
-    // Conditional comprehension question (https://www.pcibex.net/forums/topic/conditional-trials/)
+	// D. Comprehension question (participant presses F or J to answer comprehension question)
     (variable.question?[newText("question", variable.question)
         .cssContainer({"width": "600px", "font-size": "150%", "height": "50px"})
     ,
@@ -272,7 +309,7 @@ customTrial = label => variable => newTrial( label ,
     ,
     clear()
     ,
-    // Conditional target word feedback 
+	// E. Feedback (participant sees feedback and presses Spacebar to continue)
     (variable.feedback?[newCanvas(600, 300)
         .add(0, 150, newText(variable.feedback).bold().cssContainer({"width": "600px"}).center())
         .add(0, 210, getText("next").cssContainer({"width": "600px"}))
@@ -302,5 +339,3 @@ Template("rep_items.csv", customTrial("rep"))
 Template("test_fillers.csv", customTrial("test_fillers"))
 Template("fillers.csv", customTrial("fillers"))
 
-// Send results
-PennController.SendResults("send");
